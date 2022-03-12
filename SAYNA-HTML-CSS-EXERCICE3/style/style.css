@@ -1,0 +1,87 @@
+h6 {
+    color: #FFFFFF #27242b #27242b #3d9f96 #322f36 #f7f7f7 #f9f9f9 #ababab #7e7e7e #27242b;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #322f36;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-transform: uppercase;
+}
+
+header a {
+    color: #f7f7f7;
+}
+
+.promote {
+    margin-top: 1px;
+    padding-top: 5%;
+    font-size: 80%;
+    background-color: #322f36;
+    background-position: cover;
+}
+
+.ordi {
+    width: 40%;
+}
+
+button {
+    background-color: #3d9f96;
+    border-radius: 25px;
+    border-style: none;
+    color: #ffffff;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 7%;
+}
+
+.litmus p {
+    text-align: left;
+    color: #7e7e7e;
+}
+
+.litmus h3 {
+    text-align: left;
+}
+
+.p3 {
+    color: #ababab;
+}
+
+.avatar {
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 900px) {
+    .inverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 3%;
+    }
+    .ordi {
+        width: 60%;
+    }
+    .litmus p {
+        text-align: center;
+    }
+    .litmus h3 {
+        text-align: center;
+    }
+    .avatar {
+        padding-left: 20%;
+    }
+}
